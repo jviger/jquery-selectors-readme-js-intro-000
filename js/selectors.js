@@ -1,6 +1,4 @@
 // declare your functions here...
-(function( $ ){
-   $.fn.paragraphSelector = function() {
-     $('p')
-   }; 
-})( jQuery );
+function paragraphSelector() {
+  return $('p');
+}
